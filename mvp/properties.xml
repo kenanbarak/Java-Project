@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_40" class="java.beans.XMLDecoder">
+ <object class="presenter.Properties">
+  <void property="generatorAlg">
+   <string>GrowingTree</string>
+  </void>
+  <void property="ip">
+   <string>127.0.0.1</string>
+  </void>
+  <void property="mazeName">
+   <string>maze</string>
+  </void>
+  <void property="numOfThreads">
+   <int>10</int>
+  </void>
+  <void property="port">
+   <int>5400</int>
+  </void>
+  <void property="solverAlg">
+   <string>BFS</string>
+  </void>
+  <void property="viewType">
+   <string>gui</string>
+  </void>
+  <void property="x">
+   <int>4</int>
+  </void>
+  <void property="y">
+   <int>4</int>
+  </void>
+  <void property="z">
+   <int>4</int>
+  </void>
+ </object>
+</java>
