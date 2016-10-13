@@ -28,7 +28,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
-import network.Client;
 import presenter.Properties;
 import algorithms.mazeGenerators.GrowingTreeGenerator;
 import algorithms.mazeGenerators.Maze3d;
@@ -50,7 +49,6 @@ public class MyModel extends CommonModel
 	private HashMap<Maze3d, Solution<Position>> solutions; //key-maze3d object, value-maze's solution
 	private ExecutorService threadPool;
 	private Properties prop;
-	Client client;
 
 	/**
 	 * constructor that initialize the hash maps and load solutions
